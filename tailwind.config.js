@@ -10,7 +10,7 @@ module.exports = {
     },
     extend: {},
     keyframes: {
-      maove: {
+      move: {
         "50%": { transform: "translateY(-1rem)" }
       },
       rotate: {
@@ -25,7 +25,7 @@ module.exports = {
     },
     animation: {
       movingY: "move 3s linear infinite",
-      rotate: "rotate 3s linear infinite",
+      rotating: "rotate 3s linear infinite",
       scalingUp: "scaleUp 3s linear infinite"
     },
     fontFamily: {
